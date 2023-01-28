@@ -26,7 +26,7 @@ function App() {
           <Route index path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/' element={<Portal />}>
-            <Route path='chapters' element={<Chapter />}>
+            <Route path='' element={<Chapter />}>
               <Route path='' element={<Chapters />} />
               <Route path='keywords' element={<Keywords />} />
               <Route path='bookmarks' element={<BookMarks />} />
