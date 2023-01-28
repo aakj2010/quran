@@ -1,0 +1,133 @@
+@media only screen and (max-width: 576px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-to-hide,
+  .pray-login {
+    height: inherit;
+    width: inherit;
+    background-image: none !important;
+    visibility: none;
+    background: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  .pray-login-wrapper {
+    height: inherit;
+    width: inherit;
+    background-image: none !important;
+    visibility: none;
+    background: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  .pray-login {
+    display: none;
+  }
+  .user-login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* @media (min-width: 520px) and (max-width: 770px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .pray-login-wrapper {
+    height: inherit;
+    background-image: none !important;
+    visibility: none;
+    background: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  .pray-login {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+} */
+
+/* @media (min-width: 420px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-to-hide{
+    height: inherit;
+    width: inherit;
+    background-image: none !important;
+    visibility: none;
+    background: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  .user-login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+} */
+@media (max-width: 576px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-to-hide {
+    display: none;
+  }
+  /* .user-login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  } */
+}
+
+
+@media (min-width: 980px) and (max-width: 1024px){
+  .chapter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+}
