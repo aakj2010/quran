@@ -20,7 +20,7 @@ function SideBar() {
         <div className='list-sidebar-wrapper'>
           <div className='list-sidebar'>
             <NavLink className='list-items sidebar-footer-lists' to='preface'>Preface</NavLink>
-            <NavLink className='list-items sidebar-footer-lists' to='chapters'>Chapters</NavLink>
+            <NavLink className='list-items sidebar-footer-lists' to=''>Chapters</NavLink>
             <NavLink className='list-items sidebar-footer-lists' to='translation'>About Translation</NavLink>
             <NavLink className='list-items sidebar-footer-lists' to='glossary'>Glossary</NavLink>
             <NavLink className='list-items sidebar-footer-lists' to='author'>About the Author</NavLink>
