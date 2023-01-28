@@ -153,7 +153,7 @@ function Login() {
                     </div>
                     <div>
                         <div className='mb-3 mt-3 text-center'>
-                            <Link className='skip-login' to="/portal">
+                            <Link className='skip-login' to="/">
                                 <small > Skip Login</small>
                             </Link>
                         </div>
