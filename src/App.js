@@ -23,10 +23,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index path='/login' element={<Login />} />
+          <Route index path='/' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/' element={<Portal />}>
-            <Route path='' element={<Chapter />}>
+            <Route path='chapter' element={<Chapter />}>
               <Route path='' element={<Chapters />} />
               <Route path='keywords' element={<Keywords />} />
               <Route path='bookmarks' element={<BookMarks />} />

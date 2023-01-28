@@ -30,7 +30,7 @@ function Header() {
                     </div>
                     <div className='search-by-words'>
                         <div>
-                            <input type="text" placeholder='Search a word in chapters' />
+                            <input type="text" placeholder='Search a word in chapters' autoComplete='on' />
                         </div>
                         <div className='search-icon'>
                             <button><img src={search} alt="" /></button>

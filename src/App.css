@@ -30,10 +30,10 @@
   justify-content: center;
 }
 .pray-login-wrapper {
-  /* position: absolute; */
   width: 50vw;
   height: 100vh;
   /* Primary/500 */
+  background-size: cover !important;
   background: var(--primary600);
   background-blend-mode: multiply;
 }
@@ -539,6 +539,8 @@ ul li:hover {
 }
 .header-items:hover {
   text-decoration: none;
+  color: #fff;
+  background-color: var(--primary600);
 }
 .header-items .active {
   color: var(--bgwhite);
